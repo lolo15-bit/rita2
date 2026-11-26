@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IA na Escola</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🤖 Inteligência Artificial na Escola</h1>
+        <p>Vamos refletir sobre o uso da IA na educação!</p>
+    </header>
+
+    <main class="container">
+        <section id="inicio">
+            <h2>Bem-vindo(a)!</h2>
+            <p>
+                A Inteligência Artificial está cada vez mais presente
+                em nossas vidas. Você sabe como utilizá-la na escola
+                de maneira responsável?
+            </p>
+            <button onclick="iniciar()">Começar atividade</button>
+        </section>
+
+        <section id="atividade" class="escondido">
+            <h2 id="numero"></h2>
+            <p id="pergunta"></p>
+            <div id="alternativas"></div>
+            <p id="mensagem"></p>
+        </section>
+
+        <section id="resultado" class="escondido">
+            <h2>🎉 Resultado final!</h2>
+            <p id="pontuacao"></p>
+            <p id="comentario"></p>
+            <button onclick="reiniciar()">Refazer atividade</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>Projeto de Técnicas Computacionais</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
